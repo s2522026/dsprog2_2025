@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>天気予報アプリ（SQLite対応）</title>
+</head>
+
+<body>
+
+    <h1>天気予報アプリ（気象庁API × SQLite）</h1>
+
+    <!-- 地域選択 -->
+    <p>地域を選択：</p>
+    <select id="areaSelect">
+        <option value="">-- 地域を選択 --</option>
+    </select>
+
+    <!-- 日付選択（オプション） -->
+    <p>日付を選択：</p>
+    <input type="date" id="dateInput">
+    <button id="historyBtn">過去の天気を見る</button>
+
+    <hr>
+
+    <!-- 天気表示 -->
+    <div id="weather"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
