@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>気象庁API 天気予報アプリ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        select {
+            font-size: 16px;
+            padding: 5px;
+        }
+
+        #weather {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>天気予報アプリ（気象庁API）</h1>
+
+    <p>地域を選択してください：</p>
+    <select id="areaSelect">
+        <option value="">-- 地域を選択 --</option>
+    </select>
+
+    <div id="weather"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
